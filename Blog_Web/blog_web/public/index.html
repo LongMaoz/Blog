@@ -1,17 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>blog_web</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but blog_web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="ch">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>丶泷猫的Blog</title>
+  <style>
+    body {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+    }
+
+    #warp {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 720px;
+      position: absolute;
+      z-index:1;
+    }
+
+    #bg {
+      margin: 0em;
+      background: #348cb2 url(images/bg.jpg) bottom left;
+      background-repeat: repeat-x;
+      animation: bg 60s linear infinite;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 1680px) {
+
+      /* Basic */
+
+      body,
+      input,
+      select,
+      textarea {
+        font-size: 13pt;
+      }
+
+      /* BG */
+
+      @-moz-keyframes bg {
+        0% {
+          -moz-transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+
+        100% {
+          -moz-transform: translate3d(-1500px, 0, 0);
+          -webkit-transform: translate3d(-1500px, 0, 0);
+          -ms-transform: translate3d(-1500px, 0, 0);
+          transform: translate3d(-1500px, 0, 0);
+        }
+
+      }
+
+      @-webkit-keyframes bg {
+        0% {
+          -moz-transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+
+        100% {
+          -moz-transform: translate3d(-1500px, 0, 0);
+          -webkit-transform: translate3d(-1500px, 0, 0);
+          -ms-transform: translate3d(-1500px, 0, 0);
+          transform: translate3d(-1500px, 0, 0);
+        }
+      }
+
+      @-ms-keyframes bg {
+        0% {
+          -moz-transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+
+        100% {
+          -moz-transform: translate3d(-1500px, 0, 0);
+          -webkit-transform: translate3d(-1500px, 0, 0);
+          -ms-transform: translate3d(-1500px, 0, 0);
+          transform: translate3d(-1500px, 0, 0);
+        }
+      }
+
+      @keyframes bg {
+        0% {
+          -moz-transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+        }
+
+        100% {
+          -moz-transform: translate3d(-1500px, 0, 0);
+          -webkit-transform: translate3d(-1500px, 0, 0);
+          -ms-transform: translate3d(-1500px, 0, 0);
+          transform: translate3d(-1500px, 0, 0);
+        }
+      }
+
+      #bg {
+        background-size: 1500px auto;
+        width: 4500px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="warp">
+    <div id="bg">
+    </div>
+  </div>
+  <noscript>
+    <strong>
+      很抱歉，没有启动JavaScript程序无法继续,请允许
+    </strong>
+  </noscript>
+</body>
+
 </html>

@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <TopMenu></TopMenu>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <Home></Home>
+      <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
@@ -10,11 +11,26 @@
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  margin-top: 15%;
+  position: absolute;
+  z-index: 999;
 }
 </style>
+
+<script>
+import TopMenu from "@/components/TopMenu";
+import Home from './views/Home.vue'
+
+export default {
+  components: {
+    TopMenu,Home
+  }
+};
+</script>
