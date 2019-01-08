@@ -1,7 +1,7 @@
 <template>
   <div>
     <strong>{{Titel}}</strong>
-    <br>
+    <br><br>
     <span>{{Desc}}</span>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       Titel: "丶泷猫的Blog",
-      Desc:"面向Googel开发程序",
+      Desc:"面向搜索引擎开发程序",
     };
   }
 };

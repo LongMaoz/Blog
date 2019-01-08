@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog_WebApi", "Blog_WebApi\Blog_WebApi.csproj", "{655BC5C6-86C0-4F77-87BB-BF1937CE04DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog_WebApi", "Blog_WebApi\Blog_WebApi.csproj", "{655BC5C6-86C0-4F77-87BB-BF1937CE04DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{A4327588-840C-4103-800D-D6B78171E73A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{655BC5C6-86C0-4F77-87BB-BF1937CE04DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{655BC5C6-86C0-4F77-87BB-BF1937CE04DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{655BC5C6-86C0-4F77-87BB-BF1937CE04DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4327588-840C-4103-800D-D6B78171E73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4327588-840C-4103-800D-D6B78171E73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4327588-840C-4103-800D-D6B78171E73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4327588-840C-4103-800D-D6B78171E73A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
