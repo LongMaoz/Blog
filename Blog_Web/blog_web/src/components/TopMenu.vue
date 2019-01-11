@@ -8,10 +8,12 @@
 
 <style>
   strong{
+    cursor:default;
     font-size:50px;
     color: white
   }
   span{
+    cursor:default;
     color:white
   }
 </style>

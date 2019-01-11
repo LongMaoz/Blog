@@ -2,7 +2,7 @@
   <div class="Diary">
     <el-card shadow="always">
       <div slot="header" class="clearfix">
-        <img src="http://demo.cssmoban.com/cssthemes5/ccpt_22_bro/images/pic02.jpg">
+        <img src="@/assets/DiaryBg.jpg">
       </div>
     </el-card>
   </div>

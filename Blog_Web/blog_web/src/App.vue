@@ -2,7 +2,7 @@
   <div id="app">
     <TopMenu></TopMenu>
     <div id="nav">
-      <router-view/>
+      <Home></Home>
       <!-- <router-link to="/about">About</router-link> -->
     </div>
   </div>
@@ -25,10 +25,11 @@
 
 <script>
 import TopMenu from "@/components/TopMenu";
+import Home from "@/views/index/Home.vue"
 
 export default {
   components: {
-    TopMenu,
+    TopMenu,Home
   }
 };
 </script>

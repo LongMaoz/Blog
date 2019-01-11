@@ -1,7 +1,7 @@
 <template>
   <el-menu style="position: fixed;top:0;left:0;width:100%;z-index=:999" :default-active="activeIndex" mode="horizontal" @select="handleSelect">
     <el-menu-item index="/Blog">
-      <i class="el-icon-share"></i>
+      <i class="el-icon-demo-home-fill"></i>
     </el-menu-item>
     <el-menu-item index="/Diary">个人日记</el-menu-item>
     <el-submenu index="2">
