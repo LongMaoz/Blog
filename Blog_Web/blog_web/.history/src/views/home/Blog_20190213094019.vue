@@ -2,7 +2,7 @@
   <div class="Diary">
     <el-card shadow="always">
       <div slot="header" class="clearfix">
-        <img src="@/assets/DiaryBg.jpg" style="width:100%;height:auto;">
+        <img src="@/assets/DiaryBg.jpg" style="width:50%;height:auto;">
       </div>
     </el-card>
   </div>

@@ -11,7 +11,7 @@ module.exports = {
             // 在 dist/index.html 的输出
             filename: 'index.html',
         },
-        home:{
+        Home:{
             // page 的入口
             entry: 'src/access/home.js',
             // 模板来源

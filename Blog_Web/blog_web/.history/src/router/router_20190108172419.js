@@ -16,6 +16,10 @@ export default new Router({
     },{
       path: '/Diary',
       name: 'Diary',
+      //路由级别代码分割
+      //这会为该路由生成一个单独的块(关于.[hash].js)
+      //当访问路由时，延迟加载。
+      // webpackChunkName: "about" 
       component: () => import( '@/views/home/Diary.vue')
     },{
       path: '/Blog',

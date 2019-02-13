@@ -3,6 +3,7 @@
     <el-card shadow="always">
       <div slot="header" class="clearfix">
         <img src="@/assets/DiaryBg.jpg" style="width:100%;height:auto;">
+        <h1>个人中心</h1>
       </div>
     </el-card>
   </div>

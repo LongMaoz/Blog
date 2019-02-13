@@ -41,12 +41,11 @@
   margin: 20px;
 }
 
-.home >>> .el-button:focus,
-.el-button:hover {
+.home >>> .el-button:focus, .el-button:hover{
   padding: 25px;
-  color: skyblue;
+  color:skyblue;
   border-color: #c6e2ff;
-  background-color: #ecf5ff;
+  background-color:#ecf5ff
 }
 .el-dialog__wrapper >>> .el-dialog__header {
   padding: 0px !important;

@@ -13,7 +13,6 @@
   padding: 0em;
 }
 .Diary >>> .el-card {
-  margin: 100px 12%;
   color: black;
   text-align: center;
   border: 0px;
